@@ -1,15 +1,9 @@
 {
-	"index": {
-		"title": "Harp Boiler Plate",
-		"site_tagline":"A boilerplate to build a static website dinamically"
-	},
-	"info": {
-		"title": "Your global variables"
-	},
-	"about": {
-		"title": "About page from a sub-dir"
-	},
-	"sitemap": {
-		"layout": false
-	}
+    "index": {
+        "title": "Wine Spectator Restaurant Awards Wine And Dine",
+        "site_tagline": "Restaurant Awards"
+    },
+    "sitemap": {
+        "layout": false
+    }
 }

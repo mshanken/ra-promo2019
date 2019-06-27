@@ -1,20 +1,20 @@
 {
-  "globals": {
-    "title": "Your website globals",
-    "site_tagline":"Your site tagline 1",
-    "subject":"",
-    "url": "www.yoursite.com",
-    "description": "Your site meta description",
-    "keywords": "your, tags",
-    "copyright": "M. Shanken Communications, Inc.",
-    "name": "project name",
-    "email": "dev@mshanken.com",
-    "layout": "false",
-    "ga": false,
-    "analytics": "you-UA-code-here",
-    "dfp": false,
-    "openGraph": false,
-    "typekit": false,
-    "disqus": false
-  }
+    "globals": {
+        "title": "Restaurant Awards Wine And Dine",
+        "site_tagline": "Wine And Dine",
+        "subject": "",
+        "url": "Restaurants.WineSpectator.com/WineAndDine",
+        "description": "A Restaurant Awards Promotional Site",
+        "keywords": "Restaurant Awards Wine And Dine, Wine And Dine, Restaurant Awards, Promo, Promotional",
+        "copyright": "Restaurants.WineSpectator.Com",
+        "name": "Restaurant Awards Wine And Dine",
+        "email": "dev@mshanken.com",
+        "layout": "false",
+        "ga": false,
+        "analytics": "you-UA-code-here",
+        "dfp": false,
+        "openGraph": false,
+        "typekit": false,
+        "disqus": false
+    }
 }

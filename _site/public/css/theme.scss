@@ -14,3 +14,10 @@
 //
 // Custom style starts here
 // --------------------------------------------------
+
+.card .card-body{ position: relative; }
+.card .card-body h5{ color: $purple; font-weight: 700; }
+.card .card-body p{ font-size: 0.75rem; color:#737373; margin: 0 0 10px; }
+.card .card-body p:last-child{ margin-bottom: 0; font-size: 0.6875rem; font-weight: 700; }
+.card .card-body a:link, .card .card-body a:hover, .card .card-body a:visited{ color: #383838; }
+.card .card-body .card-badges{ position: absolute; bottom: 20px; right: 20px; }

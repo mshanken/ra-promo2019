@@ -46,6 +46,7 @@ npm-debug.log
 .bash_history
 .cache
 .local
+.config/
 www/
 _site/public/js/vendor
 _site/public/css/_vendor
