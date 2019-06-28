@@ -14,7 +14,7 @@
 //
 // Custom style starts here
 // --------------------------------------------------
-
+header a, footer a, header a:hover, footer a:hover, header a:visited, footer a:visited{ color: #fff; text-decoration: none; }
 .card .card-body{ position: relative; height: 240px; }
 .card .card-body h5{ color: $purple; font-weight: 700; margin: 0 }
 .card .card-body p{ font-size: 0.75rem; color:#737373; margin-bottom: 8px; }
@@ -24,6 +24,7 @@
 .card .card-body a:link, .card .card-body a:hover, .card .card-body a:visited{ color: #383838; }
 .card .card-body .card-badges{ position: absolute; bottom: 20px; right: 20px; }
 @include media-breakpoint-down(sm) {
+	h1{ font-size: 2.125rem; }
 	.card .card-body{ height: auto; }
 	.card .card-body .card-badges{ position: static; }
 	.card .card-body .card-badges{ text-align: right; }
