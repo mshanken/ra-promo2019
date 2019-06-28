@@ -1,4 +1,4 @@
-##### The Century
+##### [The Century](//thecentury.com)
 **CUISINE:** Chinese, Seafood
 
 **LOCATION:** *The Star*<br>

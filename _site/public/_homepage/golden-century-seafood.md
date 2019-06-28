@@ -1,4 +1,4 @@
-##### Golden Century Seafood
+##### [Golden Century Seafood](//goldencentury.com.au)
 **CUISINE:** Asian, Chinese
 
 **LOCATION:** 393-399 Sussex St., Sydney, New South Wales, Australia, 02000

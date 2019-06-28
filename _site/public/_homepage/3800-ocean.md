@@ -1,4 +1,4 @@
-##### 3800 Ocean
+##### [3800 Ocean](//PalmBeachMarriottResort.com)
 **CUISINE:** American, Regional
 
 **LOCATION:** *Palm Beach Marriott Singer Island Beach Resort & Spa*<br>

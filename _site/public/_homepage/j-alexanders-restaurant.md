@@ -1,4 +1,4 @@
-##### J. Alexander's Restaurant
+##### [J. Alexander's Restaurant](//jalexanders.com)
 **CUISINE:** American
 
 **AWARD LEVEL:** Award of Excellence

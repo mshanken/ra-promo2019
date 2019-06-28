@@ -1,4 +1,4 @@
-##### Pappas Bros. Steakhouse
+##### [Pappas Bros. Steakhouse](//pappasbros.com)
 **CUISINE:** American, Steakhouse
 
 **AWARD LEVEL:** Various

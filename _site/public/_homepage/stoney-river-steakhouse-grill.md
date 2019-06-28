@@ -1,4 +1,4 @@
-##### Stoney River Steakhouse & Grill
+##### [Stoney River Steakhouse & Grill](//stoneyriver.com)
 CUISINE: Italian, Tapas
 
 **AWARD LEVEL:** Award of Excellence

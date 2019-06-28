@@ -1,4 +1,4 @@
-##### Goodstone Restaurant
+##### [Goodstone Restaurant](//goodstone.com)
 **CUISINE:** American, French
 
 **LOCATION:** *The Goodstone Inn*<br>

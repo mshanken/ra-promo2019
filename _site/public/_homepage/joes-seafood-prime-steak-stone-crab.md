@@ -1,4 +1,4 @@
-##### Joe's Seafood, Prime Steak & Stone Crab
+##### [Joe's Seafood, Prime Steak & Stone Crab](//joes.net)
 **CUISINE:** Seafood, Steakhouse
 
 **AWARD LEVEL:** Best Award of Excellence

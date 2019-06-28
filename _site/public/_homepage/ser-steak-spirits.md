@@ -1,4 +1,4 @@
-##### SĒR Steak + Spirits
+##### [SĒR Steak + Spirits](//sersteak.com)
 **CUISINE:** Steakhouse
 
 **AWARD LEVEL:** Award of Excellence
