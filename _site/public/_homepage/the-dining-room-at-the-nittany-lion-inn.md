@@ -1,4 +1,4 @@
-##### The Dining Room at The Nittany Lion Inn
+##### [The Dining Room at The Nittany Lion Inn](//nittanylioninn.psu.edu)
 **CUISINE:** Regional, Steakhouse
 
 **LOCATION:** *Nittany Lion Inn*<br>

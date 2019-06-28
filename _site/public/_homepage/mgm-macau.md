@@ -1,4 +1,4 @@
-##### MGM Macau
+##### [MGM Macau](//mgm.mo/en/macau/dining)
 <p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
 Aux Beaux Arts, Imperial Court</p>
 

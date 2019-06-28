@@ -1,4 +1,4 @@
-##### Kinzie Chophouse
+##### [Kinzie Chophouse](//kinziechophouse.com)
 **CUISINE:** American, Steakhouse
 
 **AWARD LEVEL:** Best Award of Excellence

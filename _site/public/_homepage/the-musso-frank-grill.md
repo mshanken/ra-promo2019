@@ -1,4 +1,4 @@
-##### The Musso & Frank Grill
+##### [The Musso & Frank Grill](//mgm.mo/en/macau/dining)
 **CUISINE:** American
 
 **AWARD LEVEL:** Award of Excellence

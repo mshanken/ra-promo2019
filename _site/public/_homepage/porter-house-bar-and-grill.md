@@ -1,4 +1,4 @@
-##### Porter House Bar and Grill
+##### [Porter House Bar and Grill](//porterhousenyc.com)
 **CUISINE:** American, Steakhouse
 
 **AWARD LEVEL:** Best Award of Excellence

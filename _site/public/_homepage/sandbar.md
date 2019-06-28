@@ -1,4 +1,4 @@
-##### Sandbar
+##### [Sandbar](//lessings.com/corporate/restaurants/venue/sandbar)
 **CUISINE:** American
 
 **AWARD LEVEL:** Award of Excellence

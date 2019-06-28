@@ -1,4 +1,4 @@
-##### Spuntino’s Wine Bar & Italian Tapas
+##### [Spuntino’s Wine Bar & Italian Tapas](//spuntinowinebar.com)
 **CUISINE:** Italian, Tapas
 
 **AWARD LEVEL:** Various
