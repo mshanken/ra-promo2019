@@ -1,4 +1,4 @@
-##### [SĒR Steak + Spirits](//sersteak.com)
+##### [S<span style="font-weight:500">Ē</span>R Steak + Spirits](//sersteak.com)
 **CUISINE:** Steakhouse
 
 **AWARD LEVEL:** Award of Excellence
