@@ -5,4 +5,4 @@
 
 **LOCATION:** 55 Main Street, Cold Spring Harbor, NY 11724
 
-[lessings.com/corporate/restaurants/venue/sandbar](//lessings.com/corporate/restaurants/venue/sandbar)
+[lessings.com/corporate/restaurants/venue/sandbar](//www.lessings.com/corporate/restaurants/venue/sandbar)

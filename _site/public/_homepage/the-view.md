@@ -5,4 +5,4 @@
 
 **LOCATION:** 3 Consuelo Place, Oakdale, NY. 11769
 
-[lessings.com/corporate/restaurants/venue/view](https://www.lessings.com/corporate/restaurants/venue/view)
+[lessings.com/corporate/restaurants/venue/view](//www.lessings.com/corporate/restaurants/venue/view)
