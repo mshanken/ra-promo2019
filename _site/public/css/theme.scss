@@ -15,9 +15,16 @@
 // Custom style starts here
 // --------------------------------------------------
 
-.card .card-body{ position: relative; }
-.card .card-body h5{ color: $purple; font-weight: 700; }
-.card .card-body p{ font-size: 0.75rem; color:#737373; margin: 0 0 10px; }
-.card .card-body p:last-child{ margin-bottom: 0; font-size: 0.6875rem; font-weight: 700; }
+.card .card-body{ position: relative; height: 240px; }
+.card .card-body h5{ color: $purple; font-weight: 700; margin: 0 }
+.card .card-body p{ font-size: 0.75rem; color:#737373; margin-bottom: 8px; }
+.card .card-body p:nth-child(2){ margin-top: 12px; }
+.card .card-body p:nth-last-child(2){ margin-bottom: 0; font-size: 0.6875rem; font-weight: 700; position: absolute; bottom: 20px; }
+.card .card-body p em.text-purple{ font-size: 0.9375rem; font-weight: 300; line-height: 0; }
 .card .card-body a:link, .card .card-body a:hover, .card .card-body a:visited{ color: #383838; }
 .card .card-body .card-badges{ position: absolute; bottom: 20px; right: 20px; }
+@include media-breakpoint-down(sm) {
+	.card .card-body{ height: auto; }
+	.card .card-body .card-badges{ position: static; }
+	.card .card-body .card-badges{ text-align: right; }
+}

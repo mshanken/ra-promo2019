@@ -1,6 +1,6 @@
 ##### Grand Lisboa Hotel
-*Multiple Award-Winning Restaurants On Property:*<br>
-Casa Don Alfonso, The Kitchen, Robuchon Au Dome
+<p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
+Casa Don Alfonso, The Kitchen, Robuchon Au Dome</p>
 
 **CUISINE:** Italian, Steakhouse, French
 

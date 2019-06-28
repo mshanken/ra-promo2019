@@ -1,6 +1,6 @@
 ##### MGM Macau
-*Multiple Award-Winning Restaurants On Property:*<br>
-Aux Beaux Arts, Imperial Court
+<p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
+Aux Beaux Arts, Imperial Court</p>
 
 **CUISINE:** French, Seafood, Chinese
 
