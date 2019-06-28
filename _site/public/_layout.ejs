@@ -25,7 +25,8 @@
     <%- partial("_themes/default/_header") %>
 
     <main id="main" class="container main" role="main">
-        <h1 class="text-center text-purple my-36">Great Places to Wine & Dine</h1>
+        <h1 class="text-center text-purple mt-36">Great Places to Wine & Dine</h1>
+        <h4 class="text-center mb-36"><span>2019 Edition</span></h4>
         <% if ( current.path[0] === "index" || current.source === "404") { %>
             <%- yield %>
         <% } %>
