@@ -2,16 +2,16 @@
 /* TEAM */
 
                             
-Your title: Your name.
+Your title: M. Shanken Communications, Inc.
 
                             
-Site: email, link to a contact form, etc.
+Site: dev@mshanken.com.
 
                             
-Twitter: your Twitter username.
+Twitter: @mshanken.
 
                             
-Location: City, Country.
+Location: New York, USA.
 
                          
                  
@@ -22,7 +22,7 @@ Location: City, Country.
 /* THANKS */
 
 							
-Name: name or url
+Name: Wine Spectator Restaurant Awards Wine And Dine
 
 						
                  
@@ -33,13 +33,13 @@ Name: name or url
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2019/07/01 
 
                             
-Standards: HTML5, CSS3,..
+Standards: HTML5, CSS3
 
                             
-Components: Modernizr, jQuery, etc.
+Components: html5shiv, respond, Bootstrap.
 
                             
-Software: Software used for the development
+Software: HTML5, CSS3, Bootstrap
