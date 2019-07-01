@@ -1,4 +1,5 @@
-##### [Joe's Seafood, Prime Steak & Stone Crab](//joes.net)
+<h5><a href="//www.joes.net" target="_blank">Joe's Seafood, Prime Steak & Stone Crab</a></h5>
+
 **CUISINE:** Seafood, Steakhouse
 
 **AWARD LEVEL:** Best Award of Excellence
@@ -8,4 +9,4 @@
 &ndash; 60 E Grand Ave, Chicago, IL 60611<br>
 &ndash; 3500 S Las Vegas Blvd, Las Vegas, NV 89109
 
-[joes.net](//joes.net)
+<a href="//www.joes.net" target="_blank">joes.net</a>[]()

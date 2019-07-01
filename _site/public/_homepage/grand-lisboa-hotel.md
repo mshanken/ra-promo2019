@@ -1,4 +1,5 @@
-##### [Grand Lisboa Hotel](//grandlisboahotels.com/en/dining)
+<h5><a href="https://www.grandlisboahotels.com/en/dining" target="_blank">Grand Lisboa Hotel</a></h5>
+
 <p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
 Casa Don Alfonso, The Kitchen, Robuchon Au Dome</p>
 
@@ -9,4 +10,4 @@ Casa Don Alfonso, The Kitchen, Robuchon Au Dome</p>
 **LOCATION:** *Grand Lisboa Hotel*<br>
 Avenida de Lisboa, Macau, China
 
-[grandlisboahotels.com/en/dining](//grandlisboahotels.com/en/dining)
+<a href="https://www.grandlisboahotels.com/en/dining" target="_blank">grandlisboahotels.com/en/dining</a>
