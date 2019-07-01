@@ -1,17 +1,17 @@
 <div class="card">
   <a href="<%- card_url %>" title="<%- card_blurb %>">
-	<img class="card-img-top" src="images/<%- card_img %>" alt="<%- card_blurb %>" title="<%- card_blurb %>">
+	<img class="card-img-top" src="../images/<%- card_img %>" alt="<%- card_blurb %>" title="<%- card_blurb %>">
   </a>
   <div class="card-body">
     <%- yield %>
     <div class="card-badges">
     	<% for(var award in awards){ %>
     		<% if (awards[award] == "GA") { %>
-				<img src="images/GA-logo_3GLASS.png" alt="Grand Award" class="img-fluid" style="width: 44px">
+				<img src="../images/GA-logo_3GLASS.png" alt="Grand Award" class="img-fluid" style="width: 44px">
     		<% } else if(awards[award] == "BAE") { %>
-				<img src="images/GA-logo_2GLASS.png" alt="Best Award of Excellence" class="img-fluid" style="width: 44px">
+				<img src="../images/GA-logo_2GLASS.png" alt="Best Award of Excellence" class="img-fluid" style="width: 44px">
     		<% } else { %>
-				<img src="images/GA-logo_1GLASS.png" alt="Award of Excellence" class="img-fluid" style="width: 44px">
+				<img src="../images/GA-logo_1GLASS.png" alt="Award of Excellence" class="img-fluid" style="width: 44px">
     		<% } %>
 		<% }; %>
     </div>
