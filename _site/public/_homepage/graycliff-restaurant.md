@@ -1,4 +1,5 @@
-##### [Graycliff Restaurant](//grandlisboahotels.com/en/grandlisboa/dining)
+<h5><a href="//www.graycliff.com/dining" target="_blank">Graycliff Restaurant</a></h5>
+
 **CUISINE:** French, Bahamian
 
 **AWARD LEVEL:** Grand Award
@@ -6,4 +7,4 @@
 **LOCATION:** *Graycliff Hotel*<br>
 West Hill Street, Nassau, Bahamas
 
-[graycliff.com]c
+<a href="//www.graycliff.com/dining" target="_blank">graycliff.com/dining</a>

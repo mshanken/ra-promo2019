@@ -1,4 +1,5 @@
-##### [Stoney River Steakhouse & Grill](//stoneyriver.com)
+<h5><a href="//stoneyriver.com" target="_blank">Stoney River Steakhouse & Grill</a></h5>
+
 CUISINE: Italian, Tapas
 
 **AWARD LEVEL:** Award of Excellence
@@ -8,4 +9,4 @@ CUISINE: Italian, Tapas
 &ndash; 6210, 1726 Galleria Blvd, Franklin, TN 3706<br>
 &ndash; 7515 Poplar Ave #101, Germantown, TN 38138
 
-[stoneyriver.com](//stoneyriver.com)
+<a href="//stoneyriver.com" target="_blank">stoneyriver.com</a>

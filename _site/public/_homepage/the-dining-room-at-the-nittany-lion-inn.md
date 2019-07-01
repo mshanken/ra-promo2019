@@ -1,4 +1,5 @@
-##### [The Dining Room at The Nittany Lion Inn](//nittanylioninn.psu.edu)
+<h5><a href="//nittanylioninn.psu.edu" target="_blank">The Dining Room at The Nittany Lion Inn</a></h5>
+
 **CUISINE:** Regional, Steakhouse
 
 **LOCATION:** *Nittany Lion Inn*<br>
@@ -6,4 +7,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-[nittanylioninn.psu.edu](//nittanylioninn.psu.edu)
+<a href="//nittanylioninn.psu.edu" target="_blank">nittanylioninn.psu.edu</a>
