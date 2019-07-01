@@ -4,7 +4,7 @@
 
 **AWARD LEVEL:** Award of Excellence
 
-**LOCATION:** *Hilton Anatole*
+**LOCATION:** *Hilton Anatole*<br>
 2201 N Stemmons Fwy, Dallas, TX 75207
 
 <a href="//sersteak.com" target="_blank">sersteak.com</a>[]()

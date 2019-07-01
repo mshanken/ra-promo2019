@@ -1,13 +1,13 @@
 {
     "globals": {
-        "title": "Restaurant Awards Wine And Dine",
+        "title": "Great Places to Wine & Dine",
         "site_tagline": "Wine And Dine",
         "subject": "",
-        "url": "Restaurants.WineSpectator.com/WineAndDine",
-        "description": "A Restaurant Awards Promotional Site",
-        "keywords": "Restaurant Awards Wine And Dine, Wine And Dine, Restaurant Awards, Promo, Promotional",
+        "url": "greatplacestowineanddine.winespectator.com",
+        "description": "A Restaurant Awards Promotional Site for Great Places to Wine & Dine",
+        "keywords": "Great Places to Wine & Dine, Restaurant Awards Great Places to Wine And Dine, Wine And Dine, Restaurant Awards Great Places, Wine And Dine",
         "copyright": "Restaurants.WineSpectator.Com",
-        "name": "Restaurant Awards Wine And Dine",
+        "name": "Great Places to Wine & Dine",
         "email": "dev@mshanken.com",
         "layout": "false",
         "ga": true,

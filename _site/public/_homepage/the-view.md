@@ -1,4 +1,4 @@
-<h5><a href="(https://www.lessings.com/corporate/restaurants/venue/view" target="_blank">The View</a></h5>
+<h5><a href="(//www.lessings.com/corporate/restaurants/venue/view" target="_blank">The View</a></h5>
 
 **CUISINE:** Coastal, Seafood
 
