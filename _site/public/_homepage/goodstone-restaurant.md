@@ -1,4 +1,4 @@
-<h5><a href="//www.goodstone.com" target="_blank">Goodstone Restaurant</a></h5>
+<h5><a href="http://www.goodstone.com" target="_blank">Goodstone Restaurant</a></h5>
 
 **CUISINE:** American, French
 
@@ -7,4 +7,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-<a href="//www.goodstone.com" target="_blank">www.goodstone.com</a>
+<a href="http://www.goodstone.com" target="_blank">www.goodstone.com</a>
