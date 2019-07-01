@@ -8,4 +8,4 @@
 &ndash; 1002 Old Country Rd, Garden City, NY 11530<br>
 &ndash; 70 Kingsland Rd, Clifton, NJ 07014
 
-<a href="//spuntinowinebar.com" target="_blank">spuntinowinebar.com</a>[]()
+<a href="//spuntinowinebar.com" target="_blank">spuntinowinebar.com</a>

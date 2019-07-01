@@ -9,4 +9,4 @@
 &ndash; 60 E Grand Ave, Chicago, IL 60611<br>
 &ndash; 3500 S Las Vegas Blvd, Las Vegas, NV 89109
 
-<a href="//www.joes.net" target="_blank">joes.net</a>[]()
+<a href="//www.joes.net" target="_blank">joes.net</a>
