@@ -7,4 +7,4 @@
 **LOCATION:** *Hilton Anatole*<br>
 2201 N Stemmons Fwy, Dallas, TX 75207
 
-<a href="http://sersteak.com" target="_blank">sersteak.com</a>[]()
+<a href="http://sersteak.com" target="_blank">sersteak.com</a>

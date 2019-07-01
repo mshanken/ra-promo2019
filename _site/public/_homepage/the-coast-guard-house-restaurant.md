@@ -6,4 +6,4 @@
 
 **AWARD LEVEL:** Award of Excellence
 
-<a href="//thecoastguardhouse.com" target="_blank">thecoastguardhouse.com</a>[]()
+<a href="//thecoastguardhouse.com" target="_blank">thecoastguardhouse.com</a>

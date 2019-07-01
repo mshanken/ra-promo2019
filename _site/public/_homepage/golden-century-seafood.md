@@ -6,4 +6,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-<a href="http://www.goldencentury.com.au" target="_blank">goldencentury.com.au</a>[]()
+<a href="http://www.goldencentury.com.au" target="_blank">goldencentury.com.au</a>
