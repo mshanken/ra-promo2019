@@ -1,4 +1,4 @@
-<h5><a href="//www.goldencentury.com.au" target="_blank">Golden Century Seafood</a></h5>
+<h5><a href="http://www.goldencentury.com.au" target="_blank">Golden Century Seafood</a></h5>
 
 **CUISINE:** Asian, Chinese
 
@@ -6,4 +6,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-<a href="//www.goldencentury.com.au" target="_blank">goldencentury.com.au</a>[]()
+<a href="http://www.goldencentury.com.au" target="_blank">goldencentury.com.au</a>[]()
