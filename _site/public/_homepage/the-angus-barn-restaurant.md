@@ -1,4 +1,4 @@
-<h5><a href="//AngusBarn.com" target="_blank">The Angus Barn Restaurant</a></h5>
+<h5><a href="//AngusBarn.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//AngusBarn.com', 'The Angus Barn Restaurant');">The Angus Barn Restaurant</a></h5>
 
 **CUISINE:** Steakhouse
 
@@ -6,4 +6,4 @@
 
 **AWARD LEVEL:** Grand Award
 
-<a href="//AngusBarn.com" target="_blank">AngusBarn.com</a>
+<a href="//AngusBarn.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//AngusBarn.com', 'The Angus Barn Restaurant');">AngusBarn.com</a>

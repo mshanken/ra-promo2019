@@ -1,6 +1,6 @@
 <div class="card">
-  <a href="<%- card_url %>" title="<%- card_blurb %>" target="_blank">
-	<img class="card-img-top" src="/images/<%- card_img %>" alt="<%- card_blurb %>" title="<%- card_blurb %>">
+  <a href="<%- card_url %>" title="<%- card_blurb %>" target="_blank" onClick="ga('send', 'event', 'OutBoundLinks', '<%- card_url %>', '<%- card_blurb %>');">
+	<img class="card-img-top" src="../images/<%- card_img %>" alt="<%- card_blurb %>" title="<%- card_blurb %>">
   </a>
   <div class="card-body">
     <%- yield %>

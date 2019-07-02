@@ -77,64 +77,6 @@
 	    </script>
 	    <!-- End Google Analytics -->
 
-	    <script>
-	    //Track Outbound Link Clicks
-
-		(function trackOutbounds() {
-		        
-		    var hitCallbackHandler = function(url,win) {
-	            if (win) {
-	                    window.open(url, win);
-	            } else {
-	                window.location.href = url;
-		        }
-		    };
-		    
-		    var addEvent = function(el, eventName, handler) {
-		    
-	                if (el.addEventListener) {
-	                    el.addEventListener(eventName, handler);
-	                } else {
-                        el.attachEvent('on' + eventName, function(){
-                                handler.call(el);
-                    	});
-	                }
-		        }
-		        
-		        if (document.getElementsByTagName) {
-	                var el = document.getElementsByTagName('a');
-	                var getDomain = "winespectator.com";
-		                
-	                // Look thru each a element
-	                for (var i=0; i < el.length;i++) {
-	                
-                        // Extract it's href attribute
-                        var href = (typeof(el[i].getAttribute('href')) == 'string' ) ? el[i].getAttribute('href') : '';
-                        
-                        // Query the href for the top level domain (xxxxx.com)
-                        var myDomain = href.match(getDomain);
-                        
-                        // If link is outbound and is not to this domain        
-                        if ((href.match(/^(https?:|\/\/)/i)  && !myDomain) || href.match(/^mailto\:/i)) {
-                        
-                            // Add an event to click
-                            addEvent(el[i],'click', function(e) {
-                                var url = this.getAttribute('href'), title = this.getAttribute('title'), win = (typeof(this.getAttribute('target')) == 'string') ? this.getAttribute('target') : ''; 
-
-                                // console.log ("add event", url);
-                                // Log even to Analytics, once done, go to the link
-                                ga('send', 'event', 'OutBoundLinks', url, title,
-                                        {'hitCallback': hitCallbackHandler(url,win)},
-                                        {'nonInteraction': 1}
-                                );
-                                
-                                e.preventDefault();
-                            });
-                        }
-	                }
-		        }
-		})();
-		</script>
     
 
     <!--[if lt IE 9]>
@@ -161,17 +103,17 @@
             <div class="row">
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" title="3800 Ocean" target="_blank">
-	<img class="card-img-top" src="/images/3800Ocean.jpg" alt="3800 Ocean" title="3800 Ocean">
+  <a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" title="3800 Ocean" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2', '3800 Ocean')">
+	<img class="card-img-top" src="../images/3800Ocean.jpg" alt="3800 Ocean" title="3800 Ocean">
   </a>
   <div class="card-body">
-    <h5><a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank">3800 Ocean</a></h5>
+    <h5><a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2', '3800 Ocean')">3800 Ocean</a></h5>
 
 <p><strong>CUISINE:</strong> American, Regional</p>
 <p><strong>LOCATION:</strong> <em>Palm Beach Marriott Singer Island Beach Resort &amp; Spa</em><br>
 3800 N. Ocean Drive, Riviera Beach, Florida, United States, 33404</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
-<p><a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank">marriott.com/hotel-restaurants</a></p>
+<p><a href="https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.marriott.com/hotel-restaurants/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/3800-ocean/5011550/home-page.mi?scid=bb1a189a-fec3-4d19-a255-54ba596febe2', '3800 Ocean')">marriott.com/hotel-restaurants</a></p>
 
     <div class="card-badges">
     	
@@ -185,16 +127,16 @@
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//AngusBarn.com" title="The Angus Barn Restaurant" target="_blank">
-	<img class="card-img-top" src="/images/AngusBarn.jpg" alt="The Angus Barn Restaurant" title="The Angus Barn Restaurant">
+  <a href="//AngusBarn.com" title="The Angus Barn Restaurant" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//AngusBarn.com', 'The Angus Barn Restaurant')">
+	<img class="card-img-top" src="../images/AngusBarn.jpg" alt="The Angus Barn Restaurant" title="The Angus Barn Restaurant">
   </a>
   <div class="card-body">
-    <h5><a href="//AngusBarn.com" target="_blank">The Angus Barn Restaurant</a></h5>
+    <h5><a href="//AngusBarn.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//AngusBarn.com', 'The Angus Barn Restaurant')">The Angus Barn Restaurant</a></h5>
 
 <p><strong>CUISINE:</strong> Steakhouse</p>
 <p><strong>LOCATION:</strong> 9401 Glenwood Ave. Raleigh, North Carolina, United States 27617</p>
 <p><strong>AWARD LEVEL:</strong> Grand Award</p>
-<p><a href="//AngusBarn.com" target="_blank">AngusBarn.com</a></p>
+<p><a href="//AngusBarn.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//AngusBarn.com', 'The Angus Barn Restaurant')">AngusBarn.com</a></p>
 
     <div class="card-badges">
     	
@@ -208,16 +150,16 @@
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//blvdregopark.com" title="BLVD Bistro & Bar" target="_blank">
-	<img class="card-img-top" src="/images/BLVD.jpg" alt="BLVD Bistro & Bar" title="BLVD Bistro & Bar">
+  <a href="//blvdregopark.com" title="BLVD Bistro & Bar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//blvdregopark.com', 'BLVD Bistro & Bar')">
+	<img class="card-img-top" src="../images/BLVD.jpg" alt="BLVD Bistro & Bar" title="BLVD Bistro & Bar">
   </a>
   <div class="card-body">
-    <h5><a href="//blvdregopark.com" target="_blank">BLVD Bistro & Bar</a></h5>
+    <h5><a href="//blvdregopark.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//blvdregopark.com', 'BLVD Bistro & Bar')">BLVD Bistro & Bar</a></h5>
 
 <p><strong>CUISINE:</strong> American</p>
 <p><strong>LOCATION:</strong> 61-18 93rd St, Rego Park, NY 11374</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
-<p><a href="//blvdregopark.com" target="_blank">blvdregopark.com</a></p>
+<p><a href="//blvdregopark.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//blvdregopark.com', 'BLVD Bistro & Bar')">blvdregopark.com</a></p>
 
     <div class="card-badges">
     	
@@ -231,17 +173,17 @@
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//thecentury.com.au" title="The Century" target="_blank">
-	<img class="card-img-top" src="/images/TheCentury.jpg" alt="The Century" title="The Century">
+  <a href="//thecentury.com.au" title="The Century" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecentury.com.au', 'The Century')">
+	<img class="card-img-top" src="../images/TheCentury.jpg" alt="The Century" title="The Century">
   </a>
   <div class="card-body">
-    <h5><a href="//thecentury.com.au" target="_blank">The Century</a></h5>
+    <h5><a href="//thecentury.com.au" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecentury.com.au', 'The Century')">The Century</a></h5>
 
 <p><strong>CUISINE:</strong> Chinese, Seafood</p>
 <p><strong>LOCATION:</strong> <em>The Star</em><br>
 Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
-<p><a href="//thecentury.com.au" target="_blank">thecentury.com.au</a></p>
+<p><a href="//thecentury.com.au" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecentury.com.au', 'The Century')">thecentury.com.au</a></p>
 
     <div class="card-badges">
     	
@@ -255,16 +197,16 @@ Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//thecoastguardhouse.com" title="The Coast Guard House Restaurant" target="_blank">
-	<img class="card-img-top" src="/images/CoastGuardHouse.jpg" alt="The Coast Guard House Restaurant" title="The Coast Guard House Restaurant">
+  <a href="//thecoastguardhouse.com" title="The Coast Guard House Restaurant" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecoastguardhouse.com', 'The Coast Guard House Restaurant')">
+	<img class="card-img-top" src="../images/CoastGuardHouse.jpg" alt="The Coast Guard House Restaurant" title="The Coast Guard House Restaurant">
   </a>
   <div class="card-body">
-    <h5><a href="//thecoastguardhouse.com" target="_blank">The Coast Guard House Restaurant</a></h5>
+    <h5><a href="//thecoastguardhouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecoastguardhouse.com', 'The Coast Guard House Restaurant')">The Coast Guard House Restaurant</a></h5>
 
 <p><strong>CUISINE:</strong> American, Seafood</p>
 <p><strong>LOCATION:</strong> 40 Ocean Road, Narragansett , Rhode Island, United States, 02882</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
-<p><a href="//thecoastguardhouse.com" target="_blank">thecoastguardhouse.com</a></p>
+<p><a href="//thecoastguardhouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecoastguardhouse.com', 'The Coast Guard House Restaurant')">thecoastguardhouse.com</a></p>
 
     <div class="card-badges">
     	
@@ -278,17 +220,17 @@ Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//nittanylioninn.psu.edu" title="The Dining Room at The Nittany Lion Inn" target="_blank">
-	<img class="card-img-top" src="/images/NittyLion.jpg" alt="The Dining Room at The Nittany Lion Inn" title="The Dining Room at The Nittany Lion Inn">
+  <a href="//nittanylioninn.psu.edu" title="The Dining Room at The Nittany Lion Inn" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nittanylioninn.psu.edu', 'The Dining Room at The Nittany Lion Inn')">
+	<img class="card-img-top" src="../images/NittyLion.jpg" alt="The Dining Room at The Nittany Lion Inn" title="The Dining Room at The Nittany Lion Inn">
   </a>
   <div class="card-body">
-    <h5><a href="//nittanylioninn.psu.edu" target="_blank">The Dining Room at The Nittany Lion Inn</a></h5>
+    <h5><a href="//nittanylioninn.psu.edu" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nittanylioninn.psu.edu', 'The Dining Room at The Nittany Lion Inn')">The Dining Room at The Nittany Lion Inn</a></h5>
 
 <p><strong>CUISINE:</strong> Regional, Steakhouse</p>
 <p><strong>LOCATION:</strong> <em>Nittany Lion Inn</em><br>
 200 W. Park Ave., State College, PA , United States, 16803</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
-<p><a href="//nittanylioninn.psu.edu" target="_blank">nittanylioninn.psu.edu</a></p>
+<p><a href="//nittanylioninn.psu.edu" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nittanylioninn.psu.edu', 'The Dining Room at The Nittany Lion Inn')">nittanylioninn.psu.edu</a></p>
 
     <div class="card-badges">
     	
@@ -302,16 +244,16 @@ Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="http://www.goldencentury.com.au" title="Golden Century Seafood" target="_blank">
-	<img class="card-img-top" src="/images/GoldenCentury.jpg" alt="Golden Century Seafood" title="Golden Century Seafood">
+  <a href="http://www.goldencentury.com.au" title="Golden Century Seafood" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goldencentury.com.au', 'Golden Century Seafood')">
+	<img class="card-img-top" src="../images/GoldenCentury.jpg" alt="Golden Century Seafood" title="Golden Century Seafood">
   </a>
   <div class="card-body">
-    <h5><a href="http://www.goldencentury.com.au" target="_blank">Golden Century Seafood</a></h5>
+    <h5><a href="http://www.goldencentury.com.au" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goldencentury.com.au', 'Golden Century Seafood')">Golden Century Seafood</a></h5>
 
 <p><strong>CUISINE:</strong> Asian, Chinese</p>
 <p><strong>LOCATION:</strong> 393-399 Sussex St., Sydney, New South Wales, Australia, 02000</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
-<p><a href="http://www.goldencentury.com.au" target="_blank">goldencentury.com.au</a></p>
+<p><a href="http://www.goldencentury.com.au" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goldencentury.com.au', 'Golden Century Seafood')">goldencentury.com.au</a></p>
 
     <div class="card-badges">
     	
@@ -325,17 +267,17 @@ Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="http://www.goodstone.com" title="Goodstone Restaurant" target="_blank">
-	<img class="card-img-top" src="/images/Goodstone.jpg" alt="Goodstone Restaurant" title="Goodstone Restaurant">
+  <a href="http://www.goodstone.com" title="Goodstone Restaurant" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com', 'Goodstone Restaurant')">
+	<img class="card-img-top" src="../images/Goodstone.jpg" alt="Goodstone Restaurant" title="Goodstone Restaurant">
   </a>
   <div class="card-body">
-    <h5><a href="http://www.goodstone.com" target="_blank">Goodstone Restaurant</a></h5>
+    <h5><a href="http://www.goodstone.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com', 'Goodstone Restaurant')">Goodstone Restaurant</a></h5>
 
 <p><strong>CUISINE:</strong> American, French</p>
 <p><strong>LOCATION:</strong> <em>The Goodstone Inn</em><br>
 36205 Snake Hill Road, Middleburg , Virginia, United States, 20117</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
-<p><a href="http://www.goodstone.com" target="_blank">goodstone.com</a></p>
+<p><a href="http://www.goodstone.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com', 'Goodstone Restaurant')">goodstone.com</a></p>
 
     <div class="card-badges">
     	
@@ -349,17 +291,17 @@ Shop 88, 80 Pyrmont St, Pyrmont, New South Wales, Australia, 02009</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="http://www.graycliff.com/dining" title="Graycliff Restaurant" target="_blank">
-	<img class="card-img-top" src="/images/Graycliff.jpg" alt="Graycliff Restaurant" title="Graycliff Restaurant">
+  <a href="http://www.graycliff.com/dining" title="Graycliff Restaurant" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.graycliff.com/dining', 'Graycliff Restaurant')">
+	<img class="card-img-top" src="../images/Graycliff.jpg" alt="Graycliff Restaurant" title="Graycliff Restaurant">
   </a>
   <div class="card-body">
-    <h5><a href="http://www.graycliff.com/dining" target="_blank">Graycliff Restaurant</a></h5>
+    <h5><a href="http://www.graycliff.com/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.graycliff.com/dining', 'Graycliff Restaurant')">Graycliff Restaurant</a></h5>
 
 <p><strong>CUISINE:</strong> French, Bahamian</p>
 <p><strong>AWARD LEVEL:</strong> Grand Award</p>
 <p><strong>LOCATION:</strong> <em>Graycliff Hotel</em><br>
 West Hill Street, Nassau, Bahamas</p>
-<p><a href="http://www.graycliff.com/dining" target="_blank">graycliff.com/dining</a></p>
+<p><a href="http://www.graycliff.com/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.graycliff.com/dining', 'Graycliff Restaurant')">graycliff.com/dining</a></p>
 
     <div class="card-badges">
     	
@@ -373,11 +315,11 @@ West Hill Street, Nassau, Bahamas</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="https://www.grandlisboahotels.com/en/dining" title="Grand Lisboa Hotel" target="_blank">
-	<img class="card-img-top" src="/images/GrandLisboaHotel.jpg" alt="Grand Lisboa Hotel" title="Grand Lisboa Hotel">
+  <a href="https://www.grandlisboahotels.com/en/dining" title="Grand Lisboa Hotel" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.grandlisboahotels.com/en/dining', 'Grand Lisboa Hotel')">
+	<img class="card-img-top" src="../images/GrandLisboaHotel.jpg" alt="Grand Lisboa Hotel" title="Grand Lisboa Hotel">
   </a>
   <div class="card-body">
-    <h5><a href="https://www.grandlisboahotels.com/en/dining" target="_blank">Grand Lisboa Hotel</a></h5>
+    <h5><a href="https://www.grandlisboahotels.com/en/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.grandlisboahotels.com/en/dining', 'Grand Lisboa Hotel')">Grand Lisboa Hotel</a></h5>
 
 <p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
 Casa Don Alfonso, The Kitchen, Robuchon Au Dome</p>
@@ -386,7 +328,7 @@ Casa Don Alfonso, The Kitchen, Robuchon Au Dome</p>
 <p><strong>AWARD LEVEL:</strong> Various</p>
 <p><strong>LOCATION:</strong> <em>Grand Lisboa Hotel</em><br>
 Avenida de Lisboa, Macau, China</p>
-<p><a href="https://www.grandlisboahotels.com/en/dining" target="_blank">grandlisboahotels.com/en/dining</a></p>
+<p><a href="https://www.grandlisboahotels.com/en/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.grandlisboahotels.com/en/dining', 'Grand Lisboa Hotel')">grandlisboahotels.com/en/dining</a></p>
 
     <div class="card-badges">
     	
@@ -404,18 +346,18 @@ Avenida de Lisboa, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//jalexanders.com" title="J. Alexander's Restaurant" target="_blank">
-	<img class="card-img-top" src="/images/JAlexanders.jpg" alt="J. Alexander's Restaurant" title="J. Alexander's Restaurant">
+  <a href="//jalexanders.com" title="J. Alexander's Restaurant" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//jalexanders.com', 'J. Alexander's Restaurant')">
+	<img class="card-img-top" src="../images/JAlexanders.jpg" alt="J. Alexander's Restaurant" title="J. Alexander's Restaurant">
   </a>
   <div class="card-body">
-    <h5><a href="//jalexanders.com" target="_blank">J. Alexander's Restaurant</a></h5>
+    <h5><a href="//jalexanders.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//jalexanders.com', 'J. Alexander's Restaurant')">J. Alexander's Restaurant</a></h5>
 
 <p><strong>CUISINE:</strong> American</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
 <p><strong>LOCATION:</strong> <em>Multiple Award-Winning Locations</em><br>
 &ndash; 73 White Bridge Rd #130, Nashville, TN 37205<br>
 &ndash; 1721 Galleria Blvd, Franklin, TN 37067</p>
-<p><a href="//jalexanders.com" target="_blank">jalexanders.com</a></p>
+<p><a href="//jalexanders.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//jalexanders.com', 'J. Alexander's Restaurant')">jalexanders.com</a></p>
 
     <div class="card-badges">
     	
@@ -429,11 +371,11 @@ Avenida de Lisboa, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//www.joes.net" title="Joe's Seafood, Prime Steak & Stone Crab" target="_blank">
-	<img class="card-img-top" src="/images/JoesStoneCrab.jpg" alt="Joe's Seafood, Prime Steak & Stone Crab" title="Joe's Seafood, Prime Steak & Stone Crab">
+  <a href="//www.joes.net" title="Joe's Seafood, Prime Steak & Stone Crab" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.joes.net', 'Joe's Seafood, Prime Steak & Stone Crab')">
+	<img class="card-img-top" src="../images/JoesStoneCrab.jpg" alt="Joe's Seafood, Prime Steak & Stone Crab" title="Joe's Seafood, Prime Steak & Stone Crab">
   </a>
   <div class="card-body">
-    <h5><a href="//www.joes.net" target="_blank">Joe's Seafood, Prime Steak & Stone Crab</a></h5>
+    <h5><a href="//www.joes.net" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.joes.net', 'Joe\'s Seafood, Prime Steak & Stone Crab')">Joe's Seafood, Prime Steak & Stone Crab</a></h5>
 
 <p><strong>CUISINE:</strong> Seafood, Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
@@ -441,7 +383,7 @@ Avenida de Lisboa, Macau, China</p>
 &ndash; 750 15th St NW, Washington, DC 20005<br>
 &ndash; 60 E Grand Ave, Chicago, IL 60611<br>
 &ndash; 3500 S Las Vegas Blvd, Las Vegas, NV 89109</p>
-<p><a href="//www.joes.net" target="_blank">joes.net</a></p>
+<p><a href="//www.joes.net" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.joes.net', 'Joe\'s Seafood, Prime Steak & Stone Crab')">joes.net</a></p>
 
     <div class="card-badges">
     	
@@ -455,16 +397,16 @@ Avenida de Lisboa, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//www.kinziechophouse.com" title="Kinzie Chophouse" target="_blank">
-	<img class="card-img-top" src="/images/Kinzie.jpg" alt="Kinzie Chophouse" title="Kinzie Chophouse">
+  <a href="//www.kinziechophouse.com" title="Kinzie Chophouse" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.kinziechophouse.com', 'Kinzie Chophouse')">
+	<img class="card-img-top" src="../images/Kinzie.jpg" alt="Kinzie Chophouse" title="Kinzie Chophouse">
   </a>
   <div class="card-body">
-    <h5><a href="//www.kinziechophouse.com" target="_blank">Kinzie Chophouse</a></h5>
+    <h5><a href="//www.kinziechophouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.kinziechophouse.com', 'Kinzie Chophouse')">Kinzie Chophouse</a></h5>
 
 <p><strong>CUISINE:</strong> American, Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
 <p><strong>LOCATION:</strong> 400 N. Wells St., Chicago , Illinois, United States, 60654</p>
-<p><a href="//www.kinziechophouse.com" target="_blank">kinziechophouse.com</a></p>
+<p><a href="//www.kinziechophouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.kinziechophouse.com', 'Kinzie Chophouse')">kinziechophouse.com</a></p>
 
     <div class="card-badges">
     	
@@ -478,16 +420,16 @@ Avenida de Lisboa, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//www.m-grill.com" title="M Grill" target="_blank">
-	<img class="card-img-top" src="/images/MGrill.jpg" alt="M Grill" title="M Grill">
+  <a href="//www.m-grill.com" title="M Grill" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.m-grill.com', 'M Grill')">
+	<img class="card-img-top" src="../images/MGrill.jpg" alt="M Grill" title="M Grill">
   </a>
   <div class="card-body">
-    <h5><a href="//m-grill.com" target="_blank">M Grill</a></h5>
+    <h5><a href="//m-grill.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//m-grill.com', 'M Grill')">M Grill</a></h5>
 
 <p><strong>CUISINE:</strong> Brazilian, Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
 <p><strong>LOCATION:</strong> 3832 Wilshire Blvd Suite 202 Suite 202, Los Angeles, CA 90010</p>
-<p><a href="//m-grill.com" target="_blank">m-grill.com</a></p>
+<p><a href="//m-grill.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//m-grill.com', 'M Grill')">m-grill.com</a></p>
 
     <div class="card-badges">
     	
@@ -501,11 +443,11 @@ Avenida de Lisboa, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//mgm.mo/en/macau/dining" title="MGM Macau" target="_blank">
-	<img class="card-img-top" src="/images/MGM.jpg" alt="MGM Macau" title="MGM Macau">
+  <a href="//mgm.mo/en/macau/dining" title="MGM Macau" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//mgm.mo/en/macau/dining', 'MGM Macau')">
+	<img class="card-img-top" src="../images/MGM.jpg" alt="MGM Macau" title="MGM Macau">
   </a>
   <div class="card-body">
-    <h5><a href="//www.mgm.mo/en/macau/dining" target="_blank">MGM Macau</a></h5>
+    <h5><a href="//www.mgm.mo/en/macau/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.mgm.mo/en/macau/dining', 'MGM Macau')">MGM Macau</a></h5>
 
 <p class="mt-0"><em class="text-purple">Multiple Award-Winning Restaurants On Property:</em><br>
 Aux Beaux Arts, Imperial Court</p>
@@ -514,7 +456,7 @@ Aux Beaux Arts, Imperial Court</p>
 <p><strong>AWARD LEVEL:</strong> Various</p>
 <p><strong>LOCATION:</strong> <em>MGM Macau</em>
 Av. Dr. Sun Yat-Sen, Macau, China</p>
-<p><a href="//www.mgm.mo/en/macau/dining" target="_blank">mgm.mo/en/macau/dining</a></p>
+<p><a href="//www.mgm.mo/en/macau/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.mgm.mo/en/macau/dining', 'MGM Macau')">mgm.mo/en/macau/dining</a></p>
 
     <div class="card-badges">
     	
@@ -532,16 +474,16 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="https://mussoandfrank.com/" title="The Musso & Frank Grill" target="_blank">
-	<img class="card-img-top" src="/images/Musso&Frank.jpg" alt="The Musso & Frank Grill" title="The Musso & Frank Grill">
+  <a href="https://mussoandfrank.com/" title="The Musso & Frank Grill" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://mussoandfrank.com/', 'The Musso & Frank Grill')">
+	<img class="card-img-top" src="../images/Musso&Frank.jpg" alt="The Musso & Frank Grill" title="The Musso & Frank Grill">
   </a>
   <div class="card-body">
-    <h5><a href="https://mussoandfrank.com/" target="_blank">The Musso & Frank Grill</a></h5>
+    <h5><a href="https://mussoandfrank.com/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://mussoandfrank.com/', 'The Musso & Frank Grill')">The Musso & Frank Grill</a></h5>
 
 <p><strong>CUISINE:</strong> American</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
 <p><strong>LOCATION:</strong> 6667 Hollywood Blvd, Los Angeles, CA 90028</p>
-<p><a href="https://mussoandfrank.com/" target="_blank">mussoandfrank.com</a></p>
+<p><a href="https://mussoandfrank.com/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://mussoandfrank.com/', 'The Musso & Frank Grill')">mussoandfrank.com</a></p>
 
     <div class="card-badges">
     	
@@ -555,16 +497,16 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//nerainyc.com" title="Nerai" target="_blank">
-	<img class="card-img-top" src="/images/Nerai.jpg" alt="Nerai" title="Nerai">
+  <a href="//nerainyc.com" title="Nerai" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nerainyc.com', 'Nerai')">
+	<img class="card-img-top" src="../images/Nerai.jpg" alt="Nerai" title="Nerai">
   </a>
   <div class="card-body">
-    <h5><a href="//nerainyc.com" target="_blank">Nerai</a></h5>
+    <h5><a href="//nerainyc.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nerainyc.com', 'Nerai')">Nerai</a></h5>
 
 <p><strong>CUISINE:</strong> Greek, Seafood</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
 <p><strong>LOCATION:</strong> 55 E 54th St, New York, NY 10022</p>
-<p><a href="//nerainyc.com" target="_blank">nerainyc.com</a></p>
+<p><a href="//nerainyc.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//nerainyc.com', 'Nerai')">nerainyc.com</a></p>
 
     <div class="card-badges">
     	
@@ -578,11 +520,11 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//pappasbros.com" title="Pappas Bros. Steakhouse" target="_blank">
-	<img class="card-img-top" src="/images/PappasBrosSteakhouse.jpg" alt="Pappas Bros. Steakhouse" title="Pappas Bros. Steakhouse">
+  <a href="//pappasbros.com" title="Pappas Bros. Steakhouse" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//pappasbros.com', 'Pappas Bros. Steakhouse')">
+	<img class="card-img-top" src="../images/PappasBrosSteakhouse.jpg" alt="Pappas Bros. Steakhouse" title="Pappas Bros. Steakhouse">
   </a>
   <div class="card-body">
-    <h5><a href="//pappasbros.com" target="_blank">Pappas Bros. Steakhouse</a></h5>
+    <h5><a href="//pappasbros.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//pappasbros.com', 'Pappas Bros. Steakhouse')">Pappas Bros. Steakhouse</a></h5>
 
 <p><strong>CUISINE:</strong> American, Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Various</p>
@@ -590,7 +532,7 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 &ndash; 10477 Lombardy Ln, Dallas, TX 75220<br>
 &ndash; 5839 Westheimer Rd, Houston, TX 77057<br>
 &ndash; 1200 McKinney St, Houston, TX 77010</p>
-<p><a href="//pappasbros.com" target="_blank">pappasbros.com</a></p>
+<p><a href="//pappasbros.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//pappasbros.com', 'Pappas Bros. Steakhouse')">pappasbros.com</a></p>
 
     <div class="card-badges">
     	
@@ -608,17 +550,17 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//porterhousenyc.com" title="Porter House Bar and Grill" target="_blank">
-	<img class="card-img-top" src="/images/Porterhouse.jpg" alt="Porter House Bar and Grill" title="Porter House Bar and Grill">
+  <a href="//porterhousenyc.com" title="Porter House Bar and Grill" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//porterhousenyc.com', 'Porter House Bar and Grill')">
+	<img class="card-img-top" src="../images/Porterhouse.jpg" alt="Porter House Bar and Grill" title="Porter House Bar and Grill">
   </a>
   <div class="card-body">
-    <h5><a href="//porterhousenyc.com" target="_blank">Porter House Bar and Grill</a></h5>
+    <h5><a href="//porterhousenyc.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//porterhousenyc.com', 'Porter House Bar and Grill')">Porter House Bar and Grill</a></h5>
 
 <p><strong>CUISINE:</strong> American, Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
 <p><strong>LOCATION:</strong> <em>The Shops at Columbus Circle</em><br>
 10 Columbus Circle, 4th Floor, New York, NY, United States, 10019</p>
-<p><a href="//porterhousenyc.com" target="_blank">porterhousenyc.com</a></p>
+<p><a href="//porterhousenyc.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//porterhousenyc.com', 'Porter House Bar and Grill')">porterhousenyc.com</a></p>
 
     <div class="card-badges">
     	
@@ -632,16 +574,16 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//www.lessings.com/corporate/restaurants/venue/sandbar" title="Sandbar" target="_blank">
-	<img class="card-img-top" src="/images/Sandbar.jpg" alt="Sandbar" title="Sandbar">
+  <a href="//www.lessings.com/corporate/restaurants/venue/sandbar" title="Sandbar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/sandbar', 'Sandbar')">
+	<img class="card-img-top" src="../images/Sandbar.jpg" alt="Sandbar" title="Sandbar">
   </a>
   <div class="card-body">
-    <h5><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank">Sandbar</a></h5>
+    <h5><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/sandbar', 'Sandbar')">Sandbar</a></h5>
 
 <p><strong>CUISINE:</strong> American</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
 <p><strong>LOCATION:</strong> 55 Main Street, Cold Spring Harbor, NY 11724</p>
-<p><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank">lessings.com/corporate/restaurants/venue/sandbar</a></p>
+<p><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/sandbar', 'Sandbar')">lessings.com/corporate/restaurants/venue/sandbar</a></p>
 
     <div class="card-badges">
     	
@@ -655,17 +597,17 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="http://sersteak.com" title="SĒR Steak + Spirits" target="_blank">
-	<img class="card-img-top" src="/images/SER.jpg" alt="SĒR Steak + Spirits" title="SĒR Steak + Spirits">
+  <a href="http://sersteak.com" title="SĒR Steak + Spirits" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://sersteak.com', 'SĒR Steak + Spirits')">
+	<img class="card-img-top" src="../images/SER.jpg" alt="SĒR Steak + Spirits" title="SĒR Steak + Spirits">
   </a>
   <div class="card-body">
-    <h5><a href="http://sersteak.com" target="_blank">S<span style="font-weight:500">Ē</span>R Steak + Spirits</a></h5>
+    <h5><a href="http://sersteak.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://sersteak.com', SĒR Steak + Spirits)">S<span style="font-weight:500">Ē</span>R Steak + Spirits</a></h5>
 
 <p><strong>CUISINE:</strong> Steakhouse</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
 <p><strong>LOCATION:</strong> <em>Hilton Anatole</em><br>
 2201 N Stemmons Fwy, Dallas, TX 75207</p>
-<p><a href="http://sersteak.com" target="_blank">sersteak.com</a></p>
+<p><a href="http://sersteak.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://sersteak.com', SĒR Steak + Spirits)">sersteak.com</a></p>
 
     <div class="card-badges">
     	
@@ -679,18 +621,18 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//spuntinowinebar.com" title="Spuntino’s Wine Bar & Italian Tapas" target="_blank">
-	<img class="card-img-top" src="/images/Spuntinos.jpg" alt="Spuntino’s Wine Bar & Italian Tapas" title="Spuntino’s Wine Bar & Italian Tapas">
+  <a href="//spuntinowinebar.com" title="Spuntino’s Wine Bar & Italian Tapas" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//spuntinowinebar.com', 'Spuntino’s Wine Bar & Italian Tapas')">
+	<img class="card-img-top" src="../images/Spuntinos.jpg" alt="Spuntino’s Wine Bar & Italian Tapas" title="Spuntino’s Wine Bar & Italian Tapas">
   </a>
   <div class="card-body">
-    <h5><a href="//spuntinowinebar.com" target="_blank">Spuntino’s Wine Bar & Italian Tapas</a></h5>
+    <h5><a href="//spuntinowinebar.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//spuntinowinebar.com', 'Spuntino’s Wine Bar & Italian Tapas')">Spuntino’s Wine Bar & Italian Tapas</a></h5>
 
 <p><strong>CUISINE:</strong> Italian, Tapas</p>
 <p><strong>AWARD LEVEL:</strong> Various</p>
 <p><strong>LOCATION:</strong> <em>Multiple Award-Winning Locations</em><br>
 &ndash; 1002 Old Country Rd, Garden City, NY 11530<br>
 &ndash; 70 Kingsland Rd, Clifton, NJ 07014</p>
-<p><a href="//spuntinowinebar.com" target="_blank">spuntinowinebar.com</a></p>
+<p><a href="//spuntinowinebar.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//spuntinowinebar.com', 'Spuntino’s Wine Bar & Italian Tapas')">spuntinowinebar.com</a></p>
 
     <div class="card-badges">
     	
@@ -708,11 +650,11 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="//stoneyriver.com/" title="Stoney River Steakhouse & Grill" target="_blank">
-	<img class="card-img-top" src="/images/StoneyRiver.jpg" alt="Stoney River Steakhouse & Grill" title="Stoney River Steakhouse & Grill">
+  <a href="//stoneyriver.com/" title="Stoney River Steakhouse & Grill" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//stoneyriver.com/', 'Stoney River Steakhouse & Grill')">
+	<img class="card-img-top" src="../images/StoneyRiver.jpg" alt="Stoney River Steakhouse & Grill" title="Stoney River Steakhouse & Grill">
   </a>
   <div class="card-body">
-    <h5><a href="//stoneyriver.com" target="_blank">Stoney River Steakhouse & Grill</a></h5>
+    <h5><a href="//stoneyriver.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//stoneyriver.com', 'Stoney River Steakhouse & Grill')">Stoney River Steakhouse & Grill</a></h5>
 
 <p>CUISINE: Italian, Tapas</p>
 <p><strong>AWARD LEVEL:</strong> Award of Excellence</p>
@@ -720,7 +662,7 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 &ndash; 3015 West End Ave, Nashville, TN 37203<br>
 &ndash; 6210, 1726 Galleria Blvd, Franklin, TN 3706<br>
 &ndash; 7515 Poplar Ave #101, Germantown, TN 38138</p>
-<p><a href="//stoneyriver.com" target="_blank">stoneyriver.com</a></p>
+<p><a href="//stoneyriver.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//stoneyriver.com', 'Stoney River Steakhouse & Grill')">stoneyriver.com</a></p>
 
     <div class="card-badges">
     	
@@ -734,16 +676,16 @@ Av. Dr. Sun Yat-Sen, Macau, China</p>
 	</div>
 	<div class="col-md-6 col-xl-4 mb-23">
 		<div class="card">
-  <a href="https://www.lessings.com/corporate/restaurants/venue/view" title="The View" target="_blank">
-	<img class="card-img-top" src="/images/TheView.jpg" alt="The View" title="The View">
+  <a href="https://www.lessings.com/corporate/restaurants/venue/view" title="The View" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.lessings.com/corporate/restaurants/venue/view', 'The View')">
+	<img class="card-img-top" src="../images/TheView.jpg" alt="The View" title="The View">
   </a>
   <div class="card-body">
-    <h5><a href="//www.lessings.com/corporate/restaurants/venue/view" target="_blank">The View</a></h5>
+    <h5><a href="//www.lessings.com/corporate/restaurants/venue/view" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/view', 'The View')">The View</a></h5>
 
 <p><strong>CUISINE:</strong> Coastal, Seafood</p>
 <p><strong>AWARD LEVEL:</strong> Best Award of Excellence</p>
 <p><strong>LOCATION:</strong> 3 Consuelo Place, Oakdale, NY. 11769</p>
-<p><a href="https://www.lessings.com/corporate/restaurants/venue/view" target="_blank">lessings.com/corporate/restaurants/venue/view</a></p>
+<p><a href="//www.lessings.com/corporate/restaurants/venue/view" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/view', 'The View')">lessings.com/corporate/restaurants/venue/view</a></p>
 
     <div class="card-badges">
     	
