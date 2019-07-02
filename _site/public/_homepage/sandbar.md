@@ -1,5 +1,5 @@
 
-<h5><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank">Sandbar</a></h5>
+<h5><a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/sandbar', 'Sandbar');">Sandbar</a></h5>
 
 **CUISINE:** American
 
@@ -7,4 +7,4 @@
 
 **LOCATION:** 55 Main Street, Cold Spring Harbor, NY 11724
 
-<a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank">lessings.com/corporate/restaurants/venue/sandbar</a>
+<a href="//www.lessings.com/corporate/restaurants/venue/sandbar" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.lessings.com/corporate/restaurants/venue/sandbar', 'Sandbar');">lessings.com/corporate/restaurants/venue/sandbar</a>

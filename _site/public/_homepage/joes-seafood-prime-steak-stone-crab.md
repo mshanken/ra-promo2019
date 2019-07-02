@@ -1,4 +1,4 @@
-<h5><a href="//www.joes.net" target="_blank">Joe's Seafood, Prime Steak & Stone Crab</a></h5>
+<h5><a href="//www.joes.net" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.joes.net', 'Joe\'s Seafood, Prime Steak & Stone Crab');">Joe's Seafood, Prime Steak & Stone Crab</a></h5>
 
 **CUISINE:** Seafood, Steakhouse
 
@@ -9,4 +9,4 @@
 &ndash; 60 E Grand Ave, Chicago, IL 60611<br>
 &ndash; 3500 S Las Vegas Blvd, Las Vegas, NV 89109
 
-<a href="//www.joes.net" target="_blank">joes.net</a>
+<a href="//www.joes.net" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.joes.net', 'Joe\'s Seafood, Prime Steak & Stone Crab');">joes.net</a>

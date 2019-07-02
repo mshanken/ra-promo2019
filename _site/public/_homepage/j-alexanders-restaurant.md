@@ -1,4 +1,4 @@
-<h5><a href="//jalexanders.com" target="_blank">J. Alexander's Restaurant</a></h5>
+<h5><a href="//jalexanders.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//jalexanders.com', 'J. Alexander's Restaurant');">J. Alexander's Restaurant</a></h5>
 
 **CUISINE:** American
 
@@ -8,4 +8,4 @@
 &ndash; 73 White Bridge Rd #130, Nashville, TN 37205<br>
 &ndash; 1721 Galleria Blvd, Franklin, TN 37067
 
-<a href="//jalexanders.com" target="_blank">jalexanders.com</a>
+<a href="//jalexanders.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//jalexanders.com', 'J. Alexander's Restaurant');">jalexanders.com</a>

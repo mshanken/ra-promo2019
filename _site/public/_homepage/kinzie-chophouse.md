@@ -1,4 +1,4 @@
-<h5><a href="//www.kinziechophouse.com" target="_blank">Kinzie Chophouse</a></h5>
+<h5><a href="//www.kinziechophouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.kinziechophouse.com', 'Kinzie Chophouse');">Kinzie Chophouse</a></h5>
 
 **CUISINE:** American, Steakhouse
 
@@ -6,4 +6,4 @@
 
 **LOCATION:** 400 N. Wells St., Chicago , Illinois, United States, 60654
 
-<a href="//www.kinziechophouse.com" target="_blank">kinziechophouse.com</a>
+<a href="//www.kinziechophouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//www.kinziechophouse.com', 'Kinzie Chophouse');">kinziechophouse.com</a>

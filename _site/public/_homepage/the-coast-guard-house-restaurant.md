@@ -1,4 +1,4 @@
-<h5><a href="//thecoastguardhouse.com" target="_blank">The Coast Guard House Restaurant</a></h5>
+<h5><a href="//thecoastguardhouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecoastguardhouse.com', 'The Coast Guard House Restaurant');">The Coast Guard House Restaurant</a></h5>
 
 **CUISINE:** American, Seafood
 
@@ -6,4 +6,4 @@
 
 **AWARD LEVEL:** Award of Excellence
 
-<a href="//thecoastguardhouse.com" target="_blank">thecoastguardhouse.com</a>
+<a href="//thecoastguardhouse.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', '//thecoastguardhouse.com', 'The Coast Guard House Restaurant');">thecoastguardhouse.com</a>
