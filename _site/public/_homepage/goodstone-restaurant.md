@@ -7,4 +7,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-<a href="http://www.goodstone.com" target="_blank">www.goodstone.com</a>
+<a href="http://www.goodstone.com" target="_blank">goodstone.com</a>
