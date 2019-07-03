@@ -2,7 +2,7 @@
 
 **CUISINE:** Coastal, Seafood
 
-**AWARD LEVEL:** Best Award of Excellence
+**AWARD LEVEL:** Award of Excellence
 
 **LOCATION:** 3 Consuelo Place, Oakdale, NY. 11769
 

@@ -2,7 +2,7 @@
 
 **CUISINE:** American, Steakhouse
 
-**AWARD LEVEL:** Various
+**AWARD LEVEL:** Grand Award
 
 **LOCATION:** *Multiple Award-Winning Locations*<br>
 &ndash; 10477 Lombardy Ln, Dallas, TX 75220<br>
