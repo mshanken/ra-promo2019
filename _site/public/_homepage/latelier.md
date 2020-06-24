@@ -1,4 +1,4 @@
-<h5><a href="https://www.robuchon.hk/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.robuchon.hk/', 'L’Atelier de Joel Robuchon (Hong Kong ONLY)');">L’Atelier de Joel Robuchon</a></h5>
+<h5><a href="https://www.robuchon.hk/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.robuchon.hk/', 'L’Atelier de Joel Robuchon');">L’Atelier de Joel Robuchon</a></h5>
 
 **CUISINE:** French
 
@@ -7,4 +7,4 @@
 
 **AWARD LEVEL:** Grand Award
 
-<a href="https://www.robuchon.hk/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.robuchon.hk/', 'L’Atelier de Joel Robuchon (Hong Kong ONLY)');">robuchon.hk/</a>
+<a href="https://www.robuchon.hk/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.robuchon.hk/', 'L’Atelier de Joel Robuchon');">robuchon.hk/</a>
