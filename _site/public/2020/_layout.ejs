@@ -7,32 +7,32 @@
 <!--<![endif]-->
 
 <head>
-    <%- partial("_themes/default/partials/_headingtags") %>
-    <%- partial("_themes/default/partials/_styles") %>
+    <%- partial("../_themes/default/partials/_headingtags") %>
+    <%- partial("../_themes/default/partials/_styles") %>
     <% if (ga) { %>
-        <%- partial("_themes/default/partials/_ga") %>
+        <%- partial("../_themes/default/partials/_ga") %>
     <% 	} %>
 
     <!--[if lt IE 9]>
-		<script src="js/vendor/html5shiv.js"></script>
-		<script src="js/vendor/respond.src.js"></script>
+		<script src="../js/vendor/html5shiv.js"></script>
+		<script src="../js/vendor/respond.src.js"></script>
 	<![endif]-->
-    <%# - <script src="js/vendor/modernizr.js"></script>  #%>
+    <%# - <script src="../js/vendor/modernizr.js"></script>  #%>
 
 </head>
 
 <body class="bg-ligh-yellow">
-    <%- partial("_themes/default/_header") %>
+    <%- partial("../_themes/default/_header") %>
 
     <main id="main" class="container main" role="main">
         <h1 class="text-center text-purple mt-36">Great Places to Wine & Dine</h1>
-        <h4 class="text-center mb-36"><span>Editions</span></h4>
-        <% if ( current.path[0] === "index" || current.source === "404") { %>
+        <h4 class="text-center mb-36"><span>2020 Edition</span></h4>
+        
             <%- yield %>
-        <% } %>
+        
     </main>
 
-    <%- partial("_themes/default/_footer") %>
+    <%- partial("../_themes/default/_footer") %>
 </body>
 
 </html>
