@@ -3,8 +3,8 @@
 **CUISINE:** Italian
 
 **LOCATION:** *Multiple Award-Winning Locations*<br>
-&ndash; 19825 Belmont Chase Drive #183, Ashburn, VA (AE+)<br>
-&ndash; 118 Brand Road S.E., Vienna, VA (AE)
+&ndash; 19825 Belmont Chase Drive #183, Ashburn, VA<br>
+&ndash; 118 Brand Road S.E., Vienna, VA
 
 **AWARD LEVEL:** Best of Award of Excellence, Award of Excellence
 

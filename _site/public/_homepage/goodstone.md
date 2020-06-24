@@ -1,4 +1,4 @@
-<h5><a href="http://www.goodstone.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com', 'The Conservatory at Goodstone');">The Conservatory at Goodstone</a></h5>
+<h5><a href="http://www.goodstone.com/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com/dining', 'The Conservatory at Goodstone');">The Conservatory at Goodstone</a></h5>
 
 **CUISINE:** American, French
 
@@ -7,4 +7,4 @@
 
 **AWARD LEVEL:** Best Award of Excellence
 
-<a href="http://www.goodstone.com" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com', 'The Conservatory at Goodstone');">goodstone.com</a>
+<a href="http://www.goodstone.com/dining" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'http://www.goodstone.com/dining', 'The Conservatory at Goodstone');">goodstone.com/dining</a>
