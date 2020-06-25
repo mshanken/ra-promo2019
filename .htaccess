@@ -1,2 +1,2 @@
 # This allows you to redirect your entire website to any other domain
-Redirect / https://greatplacestowineanddine.winespectator.com/2020/
+Redirect 301 / https://greatplacestowineanddine.winespectator.com/2020/
