@@ -46,7 +46,6 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
     "grunt": "^1.1.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
